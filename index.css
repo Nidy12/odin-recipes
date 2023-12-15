@@ -1,0 +1,21 @@
+div{
+    padding: 30px;
+    align-items: center;
+    color: #EEEEEE;
+    margin: 10px;
+}
+
+.desc{
+    background-color: darkblue;
+    color: white;
+}
+
+.ing{
+    background-color: white;
+    color: black;
+}
+
+.steps{
+    background-color: plum;
+    color: black;
+}
