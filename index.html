@@ -1,16 +1,27 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
     <title>Document</title>
 </head>
-<body bgcolor="lightblue">
-    <h1>Odin Recipes</h1>
-    <p>Welcome to my recipe page! I hope you find it useful and enjoy the recipes to some of the most delicious dishes :)</p>
-    <ul>
-    <li><a href="./recipes/lasagna.html">Recipe for a lasagna</a></li>
-    <li><a href="./recipes/chocopastry.html">Recipe for a chocolate pastry</a></li>
-    </ul>
+<body>
+    <div class="bar">
+        <a href="../index.html" style="text-decoration: none; color:white"><h1>Odin recipes</h1></a>
+    </div>
+    <div class="heading">
+        <center><p>Welcome to my recipe page!<br> I hope you find it useful and enjoy the recipes to some of the most delicious dishes :)</p></center>
+    </div>
+
+    <div class="flexcontainer">
+        <div class="cards">
+            <a href="./recipes/lasagna.html" style="text-decoration: none; color: white; font-size: 30px"><img src="./images/lasagna.webp" width="400" height="265">
+            <div><label>Lasagna</label></div></a>
+        </div>
+        <div class="cards">
+            <a href="./recipes/chocopastry.html" style="text-decoration: none; color: white; font-size: 30px"><img src="./images/chocopastry.jpg" width="400">
+            <div><label>Chocolate pastry</label></div></a>
+        </div>
+    </div>
 </body>
